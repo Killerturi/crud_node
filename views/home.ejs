@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title%></title>
+</head>
+<body>
+
+    <%- include('layout/header')%>
+    <h1 style="background-color: red;">Home page</h1>
+    <h1>user  <%= data.name %></h1>
+    <h1>user  <%= data.address.city %></h1>
+    <%- include('layout/footer')%>
+</body>
+</html>
